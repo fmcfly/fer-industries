@@ -1,0 +1,428 @@
+.principal{
+    background-color: #1461E6;
+}
+
+section.principal{
+  background-image: url("/assets/img/main.jpg");
+  background-position: center;
+  height: 450px;
+  background-repeat: no-repeat; 
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Roboto',sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    color:#222222;
+}
+
+.nombre{
+    color: #fff;
+}
+
+.container-fluid{
+    padding: 3% 10%;
+}
+
+.botones{
+    margin: 5% 3% 5% 0;
+}
+
+.imagen{
+    width: 40%;
+}
+
+.titulo{
+    color: white;
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 320px) {
+  .size-card{
+    width: 15rem;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .size-card{
+    width: 18rem;
+  }
+}
+
+@media screen and (max-width: 900) {
+  .size-card{
+    width: 18rem;
+  }
+}
+
+.intro{
+    color: white;
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#primero{
+    padding: 3% 15%;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.caja-info{
+    text-align: center;
+    padding: 5%;
+}
+
+.fab{
+    font-size: 60px;
+    color: #F0B611;
+}
+
+.far{
+    font-size: 50px;
+    color: #F0B611;
+}
+
+.fas{
+    font-size: 50px;
+    color: #F0B611;
+}
+
+.link{
+  font-size: 30px;
+  color: #F0B611;
+}
+
+.email{
+  font-size: 30px;
+  color: #F0B611;
+}
+
+#aprenderas{
+    padding: 50px;
+    text-align: center;
+}
+
+.character-column{
+    padding: 3% 2%;
+}
+
+.card{
+    transition: box-shadow .3s;
+    border-radius:10px;
+}
+
+.card:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.img-ap{
+    height: 160px;
+}
+
+/*-----------
+    TOPICS
+-------------*/
+.timeline {
+    list-style: none;
+    padding: 0;
+    position: relative; }
+    .timeline:before {
+      top: 0;
+      bottom: 0;
+      position: absolute;
+      content: "";
+      width: 2px;
+      background-color: #f1f1f1;
+      left: 40px;
+      margin-left: -1.5px; }
+    .timeline > li {
+      margin-bottom: 50px;
+      position: relative;
+      min-height: 50px; }
+      .timeline > li:before, .timeline > li:after {
+        content: " ";
+        display: table; }
+      .timeline > li:after {
+        clear: both; }
+      .timeline > li .timeline-panel {
+        width: 100%;
+        float: right;
+        padding: 0 20px 0 100px;
+        position: relative;
+        text-align: left; }
+        .timeline > li .timeline-panel:before {
+          border-left-width: 0;
+          border-right-width: 15px;
+          left: -15px;
+          right: auto; }
+        .timeline > li .timeline-panel:after {
+          border-left-width: 0;
+          border-right-width: 14px;
+          left: -14px;
+          right: auto; }
+      .timeline > li .timeline-image {
+        left: 0;
+        margin-left: 0;
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        z-index: 100;
+        background-color: #F0B611;
+        color: white;
+        border-radius: 100%;
+        border: 7px solid #f1f1f1;
+        text-align: center; }
+        .timeline > li .timeline-image h4 {
+          font-size: 10px;
+          margin-top: 12px;
+          line-height: 14px; }
+      .timeline > li.timeline-inverted > .timeline-panel {
+        float: right;
+        text-align: left;
+        padding: 0 20px 0 100px; }
+        .timeline > li.timeline-inverted > .timeline-panel:before {
+          border-left-width: 0;
+          border-right-width: 15px;
+          left: -15px;
+          right: auto; }
+        .timeline > li.timeline-inverted > .timeline-panel:after {
+          border-left-width: 0;
+          border-right-width: 14px;
+          left: -14px;
+          right: auto; }
+      .timeline > li:last-child {
+        margin-bottom: 0; }
+    .timeline .timeline-heading h4 {
+      margin-top: 0;
+      color: inherit; }
+      .timeline .timeline-heading h4.subheading {
+        text-transform: none; }
+    .timeline .timeline-body > p,
+    .timeline .timeline-body > ul {
+      margin-bottom: 0; }
+  
+  @media (min-width: 768px) {
+    .timeline:before {
+      left: 50%; }
+    .timeline > li {
+      margin-bottom: 100px;
+      min-height: 100px; }
+      .timeline > li .timeline-panel {
+        width: 41%;
+        float: left;
+        padding: 0 20px 20px 30px;
+        text-align: right; }
+      .timeline > li .timeline-image {
+        width: 100px;
+        height: 100px;
+        left: 50%;
+        margin-left: -50px; }
+        .timeline > li .timeline-image h4 {
+          font-size: 13px;
+          margin-top: 16px;
+          line-height: 18px; }
+      .timeline > li.timeline-inverted > .timeline-panel {
+        float: right;
+        text-align: left;
+        padding: 0 30px 20px 20px; } }
+  
+  @media (min-width: 992px) {
+    .timeline > li {
+      min-height: 150px; }
+      .timeline > li .timeline-panel {
+        padding: 0 20px 20px; }
+      .timeline > li .timeline-image {
+        width: 150px;
+        height: 150px;
+        margin-left: -75px; }
+        .timeline > li .timeline-image h4 {
+          font-size: 18px;
+          margin-top: 30px;
+          line-height: 26px; }
+      .timeline > li.timeline-inverted > .timeline-panel {
+        padding: 0 20px 20px; } }
+  
+  @media (min-width: 1200px) {
+    .timeline > li {
+      min-height: 170px; }
+      .timeline > li .timeline-panel {
+        padding: 0 20px 20px 100px; }
+      .timeline > li .timeline-image {
+        width: 170px;
+        height: 170px;
+        margin-left: -85px; }
+        .timeline > li .timeline-image h4 {
+          margin-top: 40px; }
+      .timeline > li.timeline-inverted > .timeline-panel {
+        padding: 0 100px 20px 20px; } }
+
+.fondo-blanco{
+    background-color: #fff;
+}
+/*-----------
+    TERMINA TOPICS
+-------------*/
+
+/*-------------
+    CARACTERISTICAS
+-------------*/
+#caracteristicas {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  #caracteristicas {
+    font-size: 16px;
+  }
+}
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 150px;
+  max-height: 220px;
+}
+/*---------------
+  TEMRINA CARACTERÍSTICAS
+--------------*/
+
+/*------------
+    CONTACT
+-------------*/
+section#contact {
+    background-color: #222222;
+    background-image: url("https://fer-industries.s3.amazonaws.com/Curso/footer.jpg");
+    background-position: center;
+    background-repeat: no-repeat; }
+    section#contact .section-heading {
+      color: white; }
+    section#contact .form-group {
+      margin-bottom: 25px; }
+      section#contact .form-group input,
+      section#contact .form-group textarea {
+        padding: 20px; }
+      section#contact .form-group input.form-control {
+        height: auto; }
+      section#contact .form-group textarea.form-control {
+        height: 236px; }
+    section#contact .form-control:focus {
+      border-color: #1461E6;
+      box-shadow: none; }
+    section#contact ::-webkit-input-placeholder {
+      font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #eeeeee; }
+    section#contact :-moz-placeholder {
+      /* Firefox 18- */
+      font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #eeeeee; }
+    section#contact ::-moz-placeholder {
+      /* Firefox 19+ */
+      font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #eeeeee; }
+    section#contact :-ms-input-placeholder {
+      font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #eeeeee; }
+    section#contact .text-danger {
+      color: #e74c3c; }
+
+      .btn-xl {
+        color: white;
+        background-color: #1461E6;
+        border-color: #1461E6;
+        font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        border-radius: 3px;
+        font-size: 18px;
+        padding: 20px 40px; }
+        .btn-xl:focus, .btn-xl.focus {
+          color: white;
+          background-color: #1461E6;
+          border-color: #1461E6; }
+        .btn-xl:hover {
+          color: white;
+          background-color: #1461E6;
+          border-color: #1461E6; }
+        .btn-xl:active, .btn-xl.active,
+        .open > .btn-xl.dropdown-toggle {
+          color: white;
+          background-color: #1461E6;
+          border-color: #1461E6; }
+          .btn-xl:active:hover, .btn-xl:active:focus, .btn-xl:active.focus, .btn-xl.active:hover, .btn-xl.active:focus, .btn-xl.active.focus,
+          .open > .btn-xl.dropdown-toggle:hover,
+          .open > .btn-xl.dropdown-toggle:focus,
+          .open > .btn-xl.dropdown-toggle.focus {
+            color: white;
+            background-color: #1461E6;
+            border-color: #1461E6; }
+        .btn-xl:active, .btn-xl.active,
+        .open > .btn-xl.dropdown-toggle {
+          background-image: none; }
+        .btn-xl.disabled:hover, .btn-xl.disabled:focus, .btn-xl.disabled.focus, .btn-xl[disabled]:hover, .btn-xl[disabled]:focus, .btn-xl[disabled].focus,
+        fieldset[disabled] .btn-xl:hover,
+        fieldset[disabled] .btn-xl:focus,
+        fieldset[disabled] .btn-xl.focus {
+          background-color: #1461E6;
+          border-color: #1461E6; }
+        .btn-xl .badge {
+          color: #1461E6;
+          background-color: white; }
+
+          section#contact {
+            padding: 100px 0; }
+            section#contact h2.section-heading {
+              font-size: 40px;
+              margin-top: 0;
+              margin-bottom: 15px; }
+            section#contact h3.section-subheading {
+              font-size: 16px;
+              font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+              text-transform: none;
+              font-style: italic;
+              font-weight: 400;
+              margin-bottom: 75px; }
+/*-------------
+    TERMINA CONTACT US
+-------------*/
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700; }
